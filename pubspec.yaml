@@ -1,0 +1,19 @@
+name: animated_dialog
+description: A simple Animated Dialog, with editable content
+version: 0.0.2
+homepage: https://github.com/djcharles26/
+
+license: ISC
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
