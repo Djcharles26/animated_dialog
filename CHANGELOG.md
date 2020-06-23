@@ -21,3 +21,30 @@ Third  pre release.
 Fourth pre realease
 - Added example
 - Fixes on SDK 
+
+## [1.0.0] - 23/06/2020
+
+First release
+
+- formatted files
+- correct sdk 
+- completed readme
+
+## [1.0.1] - 23/06/2020
+
+Second release
+
+- Fixes on CustomDialog.dart
+
+## [1.0.2] - 23/06/2020
+
+third release
+
+- Fixes on CustomDialog.dart
+
+## [1.0.3] - 23/06/2020
+
+fourth release
+
+- Format on CustomDialog.dart
+
