@@ -53,3 +53,11 @@ fourth release
 Release candidate
 
 - Changed child to get all width of element passed by children
+
+# [1.0.4] - 24/06/2020
+
+- Added Functionality for universal widget display
+
+# [1.0.5] - 24/0&/2020
+
+- Fixed bugs

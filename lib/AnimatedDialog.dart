@@ -17,7 +17,7 @@ class AnimatedDialog extends StatefulWidget {
     this.color,
     this.gradient,
     this.borderRadius,
-    this.changeToDialog,
+    this.changeToDialog = false,
     this.animationTime,
   });
 
@@ -65,7 +65,6 @@ class _AnimatedDialogState extends State<AnimatedDialog>
   void dispose() {
     // TODO: implement dispose
     super.dispose();
-    this.
     this.animationController.stop();
     this.animationController.dispose();
   }
