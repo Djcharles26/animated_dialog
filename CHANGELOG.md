@@ -48,7 +48,7 @@ fourth release
 
 - Format on CustomDialog.dart
 
-## [1.0.3rc-1] -24/06/2020
+## [1.0.3-rc1] -24/06/2020
 
 Release candidate
 
