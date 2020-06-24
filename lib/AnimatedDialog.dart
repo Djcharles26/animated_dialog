@@ -80,17 +80,17 @@ class _AnimatedDialogState extends State<AnimatedDialog>
                 shape: RoundedRectangleBorder(
                     borderRadius: this.widget.borderRadius ??
                         BorderRadius.circular(20.0)),
-                content: Container(
+                content: !this.opacityAnimation.isCompleted ? Container(
                   width: currentWidth,
                   height: currentHeight,
                   decoration: BoxDecoration(
                       color: this.widget.color,
                       borderRadius: this.widget.borderRadius ??
                           BorderRadius.circular(20.0)),
-                  child: Opacity(
-                      opacity: this.opacityAnimation.value,
-                      child: this.widget.child ?? Container()),
-                ),
+                  // child: Opacity(
+                  //     opacity: this.opacityAnimation.value,
+                  //     child: this.widget.child ?? Container()),
+                ) : this.widget.child,
               ));
         });
   }

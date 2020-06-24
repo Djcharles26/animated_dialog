@@ -48,3 +48,8 @@ fourth release
 
 - Format on CustomDialog.dart
 
+## [1.0.3rc-1] -24/06/2020
+
+Release candidate
+
+- Changed child to get all width of element passed by children
